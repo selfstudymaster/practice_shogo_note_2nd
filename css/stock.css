@@ -1,0 +1,60 @@
+
+
+.ly_header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%; /* ヘッダーを横幅いっぱいに100%で指定 */
+    height: 94px; /* 高さはカンプ通りに指定 */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.ly_header_inner {
+    display: flex;
+    max-width: 1024px; /* 横幅をinnerでカンプ通りに指定 */
+    height: 100%; /* 高さを縦いっぱいに100%で指定 */
+    margin-right: auto; /* 縦横中央揃え */
+    margin-left: auto; /* 縦横中央揃え */
+    padding: 0 20px; /* paddingで上下左右の余白を指定 */
+    align-items: center; /* 中のアイテムを中央揃えに指定 */
+    justify-content: space-between; /* 中のアイテムを等間隔に配置し、最初のアイテムは先頭へ、最後のアイテムは末尾に寄せる */
+}
+
+.bl_header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.bl_header_img {
+    width: 55px;
+    height: 55px;
+    margin-right: 16px;
+}
+
+.bl_header_ttl {
+    margin-right: 136px;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.bl_headerNav_list {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+
+}
+
+.bl_headerNav_item {
+    margin-right: 45px;
+    text-align: center;
+}
+
+.bl_headerNav_item:last-child {
+    margin-right: 184px;
+}
+
+.bl_headerNav_link {
+    color: #333;
+}
