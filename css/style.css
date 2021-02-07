@@ -569,6 +569,7 @@ FAQ
     position: absolute;
     top: 50%;
     width: 100%;
+    margin-left: -202.5px; /* 画像のズレの応急処置 */
     transform: translateY(-50%);
 }
 
@@ -631,6 +632,15 @@ FAQ
 
 .bl_cardUnit__col5 > .bl_card:nth-of-type(5n) {
     margin-right: 0;
+}
+
+/* 画像のズレの応急処置 */
+.bl_cardUnit__col5 > .bl_card > .bl_card_imgWrapper > .bl_card_img {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-left: -165.3px;
+    transform: translateY(-50%);
 }
 
 /* スライド用 */
@@ -759,6 +769,7 @@ FAQ
 SPサイズ
 ===================================================*/
 @media (max-width: 376px) {
+/*
     .ly_header, 
     .ly_mainVisual, 
     .ly_features, 
@@ -769,7 +780,7 @@ SPサイズ
     .ly_contact {
         
     }
-
+*/
     .ly_header_inner, 
     .ly_mainVisual_inner, 
     .ly_features_inner, 
