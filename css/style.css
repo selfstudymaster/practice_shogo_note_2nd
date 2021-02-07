@@ -565,6 +565,7 @@ FAQ
     overflow: hidden;
 }
 
+/* いい書き方ではないしディスプレイサイズによっては画像幅が足りず左右に余白ができるので修正すべき */
 .bl_cardUnit__col3 > .bl_card_imgWrapper > .bl_card_img {
     /* position: absolute;
     top: 0; */
