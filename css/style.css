@@ -560,16 +560,15 @@ FAQ
 }
 
 .bl_card_imgWrapper {
-    position: relative;
-    padding-top: 56.25%;
+    /* position: relative;
+    padding-top: 56.25%; */
     overflow: hidden;
 }
 
-.bl_card_img {
-    position: absolute;
-    top: 50%;
+.bl_cardUnit__col3 > .bl_card_imgWrapper > .bl_card_img {
+    /* position: absolute;
+    top: 0; */
     width: 100%;
-    margin-left: -202.5px; /* 画像のズレの応急処置 */
     transform: translateY(-50%);
 }
 
@@ -632,6 +631,12 @@ FAQ
 
 .bl_cardUnit__col5 > .bl_card:nth-of-type(5n) {
     margin-right: 0;
+}
+
+.bl_cardUnit__col5 > .bl_card > .bl_card_imgWrapper {
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
 }
 
 /* 画像のズレの応急処置 */
